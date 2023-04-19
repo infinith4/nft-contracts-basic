@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: UNLICENSED
+
+pragma solidity ^0.8.14;
+
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+
+contract OnlyOwnerMintWithModifier is ERC721 {
+    /**
+     * @dev
+     * - このコントラクトをデプロイしたアドレス用変数owner
+     */
+    address public owner;
+
+    constructor() ERC721("OnlyOwnerMintWithModifier", "OWNERMOD"){
+        owner = _msgSender();
+    }
+
+
+    /**
+     * @dev
+     * - このコントラクトをデプロイしたアドレスだけに制御する modifier
+     */
+    modifier onlyOwner {
+        require(owner == _msgSender(), "Caller is not the owner.");
+        _;
+    }
+
+    /**
+     * @dev
+     * - このコントラクトをデプロイしたアドレスだけがmint可能 onlyOwner が実行され _; を書くと nftMint に戻る.
+     * - nftMint 関数の実行アドレスにtokenIdを紐付け
+     */
+    function nftMint(uint256 tokenId) public onlyOwner {
+        _mint(_msgSender(), tokenId);
+    }
+}
