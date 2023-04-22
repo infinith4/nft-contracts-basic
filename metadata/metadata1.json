@@ -1,0 +1,38 @@
+{
+  "name": "kerochan",
+  "description": "My first NFT's charactor.", 
+  "image": "ipfs://bafkreih463qri5s63j3k3into6b2d22e4xi5puz6raxxqrgotmfbwxwtri", 
+  "external_url": "https://openseacreatures.io/3", 
+  "attributes": [ 
+    {
+      "trait_type": "Face", 
+      "value": "Smile"
+    }, 
+    {
+      "trait_type": "Eye", 
+      "value": "Big"
+    }, 
+    {
+      "trait_type": "Jump", 
+      "value": 800
+    }, 
+    {
+      "trait_type": "Speed", 
+      "value": 120
+    }, 
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Power", 
+      "value": 40
+    },     {
+      "display_type": "boost_percentage", 
+      "trait_type": "Stamina", 
+      "value": 10
+    }, 
+    {
+      "display_type": "number", 
+      "trait_type": "Generation", 
+      "value": 2
+    }
+  ]
+}
