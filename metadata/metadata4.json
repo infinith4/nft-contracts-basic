@@ -1,33 +1,33 @@
 {
-    "name": "kerochan",
+    "name": "keroyo",
     "description": "My first nft's character.",
-    "image": "ipfs://bafkreie6efprpwl6gbcfcir2fsmipydmfrcr6jnpe3vrqq5ghy3nzdidim",
+    "image": "ipfs://bafkreifoqi46x5kdvfp23uug5jf2qoxkdgu2lpzxqe6qiqujc5c7grgfn4",
     "attributes": [
         {
             "trait_type": "Face",
-            "value": "smile"
+            "value": "chuckle"
         },
         {
             "trait_type": "Eye",
-            "value": "big"
+            "value": "middle"
         },
         {
             "trait_type": "Jump",
-            "value": 800
+            "value": 804
         },
         {
             "trait_type": "Speed",
-            "value": 120
+            "value": 124
         },
         {
             "display_type": "boost_number",
             "trait_type": "Power",
-            "value": 40
+            "value": 44
         },
         {
             "display_type": "boost_percentage",
             "trait_type": "Stamina",
-            "value": 10
+            "value": 14
         },
         {
             "display_type": "number",
