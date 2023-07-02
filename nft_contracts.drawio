@@ -1,0 +1,142 @@
+<mxfile host="Electron" modified="2023-07-02T13:42:56.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="u6SgzKgbLnCTCLKy4MBo" version="21.5.0" type="device">
+  <diagram id="TutXWEFqWee9sfNCaFc_" name="NFT">
+    <mxGraphModel dx="1381" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MUw3LlXyKPNihU0__75B-1" value="ERC-721" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="48" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-2" value="EIP-721: Non-Fungible Token Standard" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-3" value="EIP: Ethereum Improvement Proposal." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="120" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-4" value="EIP types&lt;br&gt;&lt;br&gt;Core&lt;br&gt;&lt;br&gt;Networking&lt;br&gt;&lt;br&gt;Interface&lt;br&gt;&lt;br&gt;ERC&lt;br&gt;&lt;br&gt;Meta EIP&lt;br&gt;&lt;br&gt;Informational&amp;nbsp; EIP" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="150" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-5" value="ERC-721&lt;br&gt;&lt;br&gt;NFTを追跡、移転するための基本的な機能提供を目的にスマートコントラクト内でのNFTの標準APIを規定したもの&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="355" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-6" value="NFT identifiers&lt;br&gt;&lt;br&gt;&lt;br&gt;すべての NFT は、ERC-721 スマート コントラクト内の固有の uint256 ID によって識別されます。&lt;br&gt;この識別番号は、契約期間中は変更されないものとします。&lt;br&gt;このペア (コントラクト アドレス、uint256 tokenId) は、イーサリアム チェーン上の特定の資産に対するグローバルに一意な完全修飾識別子になります。&lt;br&gt;一部の ERC-721 スマート コントラクトは、ID 0 から開始して、&lt;br&gt;新しい NFT ごとに単純に 1 つずつ増やすのが便利であると考えるかもしれませんが、&lt;br&gt;呼び出し元は ID 番号に特定のパターンがあると想定してはならず、ID を「ブラック ボックス」として扱わなければなりません (MUST)。 ”。&lt;br&gt;また、NFT は無効になる (破棄される) 可能性があることにも注意してください。サポートされている列挙インターフェイスについては、列挙関数を参照してください。 &lt;br&gt;UUID と sha3 ハッシュは uint256 に直接変換できるため、uint256 を選択するとさまざまなアプリケーションが可能になります。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="430" width="920" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-7" value="NFT コントラクトアドレスとこのコントラクトの中で管理されるユニークな数字（TokenId）の紐付け情報&lt;br&gt;※NFTは無効になったり削除されても良い" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="640" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUw3LlXyKPNihU0__75B-8" value="NFT コントラクトアドレス：Ethereum上でユニークなアドレスがDeploy時に振られる&lt;br&gt;0xBC4Caaaaaaaaaaaaaaaaaaaaaaaaaaa" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="720" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-1" value="NFT Contract" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="25" y="820" width="480" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-2" value="tokenURIs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="890" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-4" target="naf2Pe7-TgU1ZF5SvcE7-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-4" value="tokenId1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="135" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-6" target="naf2Pe7-TgU1ZF5SvcE7-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-6" value="tokenId2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="135" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-7" target="naf2Pe7-TgU1ZF5SvcE7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-7" value="URI1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-8" value="URI2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-9" target="naf2Pe7-TgU1ZF5SvcE7-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-9" value="metadata" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="565" y="940" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-10" value="contents" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="565" y="1100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-13" value="Off-Chain" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-14" value="NFT Contract" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="700" y="835" width="480" height="595" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-15" value="tokenURIs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="825" y="905" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-17" target="naf2Pe7-TgU1ZF5SvcE7-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-17" value="tokenId1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="1045" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-19" target="naf2Pe7-TgU1ZF5SvcE7-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-19" value="tokenId2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="1125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-21" target="naf2Pe7-TgU1ZF5SvcE7-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-21" value="URI1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="1045" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-22" value="URI2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="1125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="naf2Pe7-TgU1ZF5SvcE7-24" target="naf2Pe7-TgU1ZF5SvcE7-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-24" value="metadata" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-25" value="contents" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-27" value="NFT Contract と同じBlockchainにコンテンツを保存することをOn-Chainという" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="770" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-28" value="NFT Contract と同じBlockchainにコンテンツを保存しないことをOff -Chainという" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="145" y="770" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-29" value="On-Chain" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="730" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-30" value="Node" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="25" y="1520" width="480" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-32" value="Contract-C" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="110" y="1610" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1610" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-34" value="Contract-A" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="70" y="1780" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1780" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-36" value="Contract-B" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="263" y="1780" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="353" y="1780" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="naf2Pe7-TgU1ZF5SvcE7-38" value="EVM" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1880" width="390" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
