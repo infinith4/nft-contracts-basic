@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-07-02T14:03:01.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="_LDpgX762n74ZkwRjqGW" version="21.5.0" type="device">
+<mxfile host="Electron" modified="2023-07-02T14:27:29.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="XoDkTUaS3ZY_HG6iGOGJ" version="21.5.0" type="device">
   <diagram id="TutXWEFqWee9sfNCaFc_" name="NFT">
-    <mxGraphModel dx="585" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="636" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,18 @@
         </mxCell>
         <mxCell id="naf2Pe7-TgU1ZF5SvcE7-38" value="EVM" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="1880" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DWVWT6xD-RORqgFt9Eek-1" value="EOA" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="25" y="2070" width="480" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="DWVWT6xD-RORqgFt9Eek-2" value="nonce&lt;br&gt;&lt;br&gt;Balance" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="53" y="2110" width="417" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="DWVWT6xD-RORqgFt9Eek-3" value="Contract Address" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="565" y="2070" width="480" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="DWVWT6xD-RORqgFt9Eek-4" value="nonce&lt;br&gt;&lt;br&gt;Balance&lt;br&gt;&lt;br&gt;Code hash&lt;br&gt;&lt;br&gt;storage root" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="593" y="2110" width="417" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
