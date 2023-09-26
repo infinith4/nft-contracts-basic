@@ -1,0 +1,30 @@
+{
+    "name": "first gardening",
+    "description": "My first nft's gardening.",
+    "image": "ipfs://bafybeig5hqqnzboewepgmuob2foqeomayf3wdsp2zkj3hitxndtr34ulmy",
+    "attributes": [
+        {
+            "display_type": "date",
+            "trait_type": "Birthday",
+            "value": 1683251330
+        },
+        {
+            "trait_type": "Vegetables",
+            "value": "cucumber,green pepper"
+        },
+        {
+            "trait_type": "Started",
+            "value": "Seedling"
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Power",
+            "value": 1
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        }
+    ]
+}
